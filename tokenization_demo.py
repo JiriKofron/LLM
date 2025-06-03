@@ -23,7 +23,7 @@ def demonstrate_tokenization():
     print(f"Number of tokens: {len(bert_tokens)}")
     
     # 3. Let's look at how different tokenizers handle the same word
-    word = "playing"
+    word = "stonehenge"
     print(f"\n=== Tokenizing the word '{word}' ===")
     print(f"GPT-2 tokens: {gpt2_tokenizer.tokenize(word)}")
     print(f"BERT tokens: {bert_tokenizer.tokenize(word)}")
