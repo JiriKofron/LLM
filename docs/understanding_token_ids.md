@@ -1,3 +1,49 @@
+# Understanding Token IDs Documentation
+
+## Overview
+This script demonstrates how token IDs work in language models, showing how they are assigned, used, and how they relate to the model's vocabulary.
+
+## Key Concepts
+
+### Token ID Basics
+- What are token IDs
+- How they are assigned
+- How they are used
+- Why they are important
+
+### ID Properties
+- Unique identification
+- Consistent mapping
+- Vocabulary relationship
+- Special token handling
+
+### ID Analysis
+- How to analyze token IDs
+- How to understand mappings
+- How to handle special cases
+- How to use IDs effectively
+
+## Usage
+```python
+python scripts/understanding_token_ids.py
+```
+
+## Output
+The script will show:
+1. Token ID assignment
+2. ID properties
+3. Special token handling
+4. Vocabulary relationships
+5. Key points about token IDs
+
+## Related Files
+- `understanding_token_ids.py`: The main script
+- `requirements.txt`: Required dependencies
+
+## Further Reading
+- [BERT Paper](https://arxiv.org/abs/1810.04805)
+- [GPT-2 Paper](https://cdn.openai.com/better-language-models/language_models_are_unsupervised_multitask_learners.pdf)
+
 # Understanding Token IDs
 
 This script demonstrates how language models convert text into numerical IDs (token IDs) and explains the concept of tokenization in detail. Token IDs are the fundamental building blocks that language models work with - not the words themselves.
